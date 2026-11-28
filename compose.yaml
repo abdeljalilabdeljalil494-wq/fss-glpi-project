@@ -1,0 +1,28 @@
+# DEVELOPMENT: edits in ./app.py, ./static, ./templates, etc. trigger restart.
+services:
+  app:
+    build:
+      context: .
+      target: development
+    container_name: fss-glpi-app-dev
+    env_file:
+      - .env
+    environment:
+      APP_DB_PATH: /app/data/app.sqlite3
+      HOST: 0.0.0.0
+      PORT: "8000"
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./:/app
+      - ./data:/app/data
+    extra_hosts:
+      - "glpi.local:host-gateway"
+    init: true
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

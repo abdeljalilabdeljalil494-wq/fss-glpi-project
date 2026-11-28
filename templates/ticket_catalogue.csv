@@ -1,0 +1,7 @@
+category,subcategory,required_triage_details,default_assignment,priority_guidance
+Hardware,PC or peripheral,asset ID; location; symptoms; start time; impact,IT Hardware Queue,Set from impact and urgency
+Software,Application or operating system,device; software/version; error; recent changes,IT Software Queue,Set from impact and urgency
+Network,Wi-Fi or wired connectivity,building/room; affected users; device; time observed,Network Support Queue,Escalate broad outage
+Lab Equipment,Instrument failure or calibration,asset ID; lab; error/condition; safety impact; calibration date,Department Lab Support,Escalate any safety-related concern per FSS procedure
+Account/Access,Login or permission,service affected; username via approved identity process; error,IT Service Desk,Do not request passwords
+Other,Other request,location; impact; requested outcome,IT Service Desk,Set from impact and urgency

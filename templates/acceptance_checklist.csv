@@ -1,0 +1,11 @@
+test_id,area,test_case,expected_result,evidence,owner,status
+AT-01,Inventory,Agent inventory on pilot PC,Hardware/software fields populated and no duplicate asset,Attach screenshot/export,IT,Not run
+AT-02,Access,Department user attempts cross-entity access,Access denied,Record test account and result,IT security,Not run
+AT-03,Reporting,Faculty admin consolidated read-only report,Approved scope visible without unnecessary edit rights,Attach report,GLPI admin,Not run
+AT-04,Ticket,Create assign work resolve close ticket,Statuses and notifications/work logs correct,Ticket reference,Service desk,Not run
+AT-05,Stock,Receipt issue adjustment and below-threshold test,Movement audit trail and alert are correct,Transaction references,Storekeeper,Not run
+AT-06,Network,Scoped SNMP discovery,Only authorized devices scanned; inventory verified,Scan log,Network IT,Not run
+AT-07,Reservation,Concurrent overlapping reservation attempt,Conflict blocked or clearly flagged,Reservation references,Asset owner,Not run
+AT-08,Security,HTTPS and DB firewall checks,HTTPS valid; DB not reachable from user network,Test evidence,IT security,Not run
+AT-09,Recovery,Restore most recent backup to isolated environment,Service data/config recover and restore documented,Restore report,IT operations,Not run
+AT-10,Handover,Training and ownership records,Users trained and support/escalation owners documented,Attendance/sign-off,Project lead,Not run

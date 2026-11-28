@@ -1,0 +1,9 @@
+entity_name,entity_code,parent_entity,site_or_department,store_name,owner_username,local_profile,recursive_access,approved_minimum_policy,approval_status
+Faculté FSS,FSS,,Central administration,,TO_ASSIGN,Faculty stock overview,NO,TO_DEFINE,Pending
+Stock-01,STOCK-01,FSS,TO_VALIDATE,TO_DEFINE,TO_ASSIGN,Local storekeeper,NO,TO_DEFINE,Pending
+Stock-02,STOCK-02,FSS,TO_VALIDATE,TO_DEFINE,TO_ASSIGN,Local storekeeper,NO,TO_DEFINE,Pending
+Stock-03,STOCK-03,FSS,TO_VALIDATE,TO_DEFINE,TO_ASSIGN,Local storekeeper,NO,TO_DEFINE,Pending
+Stock-04,STOCK-04,FSS,TO_VALIDATE,TO_DEFINE,TO_ASSIGN,Local storekeeper,NO,TO_DEFINE,Pending
+Stock-05,STOCK-05,FSS,TO_VALIDATE,TO_DEFINE,TO_ASSIGN,Local storekeeper,NO,TO_DEFINE,Pending
+Stock-06,STOCK-06,FSS,TO_VALIDATE,TO_DEFINE,TO_ASSIGN,Local storekeeper,NO,TO_DEFINE,Pending
+Stock-07,STOCK-07,FSS,TO_VALIDATE,TO_DEFINE,TO_ASSIGN,Local storekeeper,NO,TO_DEFINE,Pending

@@ -1,0 +1,2 @@
+inventory_id,item_type,name,manufacturer,model,serial_number,entity_department,building,room_or_lab,custodian,status,acquisition_date,warranty_end,supplier,last_verified,operating_system,notes
+FSS-EXAMPLE-001,Computer,REMOVE EXAMPLE,,,,Informatics,,,,In service,,,,,,DELETE THIS EXAMPLE ROW

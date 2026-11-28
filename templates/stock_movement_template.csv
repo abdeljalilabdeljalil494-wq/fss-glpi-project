@@ -1,0 +1,2 @@
+transaction_id,date_time,item_code,item_name,lot_or_batch,expiry_date,unit,quantity,movement_type,source_location,destination_location,department,authorized_by,reason,reference
+EXAMPLE-001,YYYY-MM-DD HH:MM,REMOVE,REMOVE,,YYYY-MM-DD,unit,0,RECEIPT,supplier,store,REMOVE,REMOVE,DELETE EXAMPLE ROW,
